@@ -4,8 +4,8 @@ from gtts import gTTS
 import tempfile
 
 # Replace this with your actual Groq API key
-groq_api_key = "your_groq_api_key_here"
-client = Groq(api_key=groq_api_key)
+groq_api_key = "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"
+client = Groq(api_key="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")
 
 def decode_dream(dream_text):
     response = client.chat.completions.create(
